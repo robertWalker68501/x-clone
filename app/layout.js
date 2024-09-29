@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body className={`${inter.className} antialiased`}>
         <div className='mx-auto flex max-w-6xl justify-between'>
-          <div>
+          <div className='hidden h-screen border-r sm:inline'>
             <Sidebar />
           </div>
 
